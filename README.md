@@ -1,46 +1,20 @@
-## 如何使用
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 快速集成
 
-## Available Scripts
+#### 在 create-react-app 中使用
 
-In the project directory, you can run:
+参考[react-vant-cra](https://github.com/3lang3/react-vant-template/tree/main/template/create-react-app)
 
-### `yarn start`
+#### 在 umijs 使用
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+参考[react-vant-umi](https://github.com/3lang3/react-vant-template/tree/main/template/umi)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### 在 nextjs 使用
 
-### `yarn test`
+参考[react-vant-nextjs](https://github.com/3lang3/react-vant-template/tree/main/template/nextjs)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### vite集成
 
-### `yarn build`
+参考[react-vant-vite](https://github.com/3lang3/react-vant-template/tree/main/template/vite)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+请参阅[Quickstart](https://3lang3.github.io/react-vant/#/zh-CN/)中的更多内容。
