@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Dialog } from 'react-vant';
+import { Button, Notify } from 'react-vant';
+import { checkResponse } from './utils';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Button round type="primary" onClick={() => Dialog.alert({ title: '提示', message: `参照 Vant 打造的 React 框架移动端组件库。`})}>欢迎使用React Vant</Button>
+        <Button round type="primary" onClick={() => Notify.show({ message: 'test notify', type: 'success', duration: 0 })}>欢迎使用React Vant</Button>
+        <Button round type="primary" onClick={() => checkResponse({ type: 1, message: "请求错误" })}>测试Notify</Button>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

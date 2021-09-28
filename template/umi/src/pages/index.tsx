@@ -1,10 +1,11 @@
-import { Button, Dialog } from 'react-vant';
+import { checkResponse } from '@/utils';
+import { Button, Dialog, Flex } from 'react-vant';
 import styles from './index.less';
 
 export default function IndexPage() {
   return (
-    <div>
-      <h1 className={styles.title}>Page index</h1>
+    <Flex style={{ padding: '50px 20px' }} direction="column" align="center">
+      <h1>Page Index</h1>
       <Button
         round
         type="primary"
@@ -17,6 +18,17 @@ export default function IndexPage() {
       >
         欢迎使用React Vant
       </Button>
-    </div>
+      <Button
+        round
+        block
+        style={{ marginTop: 20 }}
+        type="warning"
+        onClick={() =>
+          checkResponse({ type: 1, message: '测试notify' })
+        }
+      >
+        测试notify
+      </Button>
+    </Flex>
   );
 }
