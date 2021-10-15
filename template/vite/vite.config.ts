@@ -26,7 +26,7 @@ export default defineConfig({
     libs: [
       {
         libraryName: "react-vant",
-        resolveStyle: (name) => `react-vant/es/${name}/style/index.less`,
+        resolveStyle: (name) => `react-vant/es/${name}/style/index`,
       },
     ],
   }),]
