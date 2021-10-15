@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "react": "^16.12.0 || ^17.0.0",
-    "react-vant": "^1.1.5"
+    "react-vant": "latest"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",

@@ -6,7 +6,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [visible, setVisible] = useState(false)
 
   return (
     <div className="App">
