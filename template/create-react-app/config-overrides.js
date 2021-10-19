@@ -1,5 +1,10 @@
 const { override, addLessLoader, fixBabelImports, addPostcssPlugins } = require('customize-cra')
 
+// const designWidth = webpack.resourcePath.includes(
+//   path.join("node_modules", "vant")
+// )
+//   ? 375
+//   : 750;
 
 /**
  * 注意🥶
