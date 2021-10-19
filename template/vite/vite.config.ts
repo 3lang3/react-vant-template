@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite'
 import styleImport from "vite-plugin-style-import";
-import reactRefresh from '@vitejs/plugin-react-refresh'
+import reactRefresh from '@vitejs/plugin-react-refresh';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ['rc-field-form']
+  },
   css: {
     preprocessorOptions: {
       less: {

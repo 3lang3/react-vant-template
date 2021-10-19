@@ -12,7 +12,7 @@
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-vant": "latest"
+    "react-vant": "^1.2.1"
   },
   "devDependencies": {
     "@types/react": "17.0.20",

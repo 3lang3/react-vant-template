@@ -7,7 +7,6 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "rc-field-form": "^1.21.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-vant": "^1.2.0"
