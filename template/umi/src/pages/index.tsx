@@ -1,6 +1,6 @@
+import { Link } from 'umi';
 import { checkResponse } from '@/utils';
-import { Button, Dialog, Flex } from 'react-vant';
-import styles from './index.less';
+import { Search, Button, Dialog, Flex } from 'react-vant';
 
 export default function IndexPage() {
   return (
@@ -23,12 +23,23 @@ export default function IndexPage() {
         block
         style={{ marginTop: 20 }}
         type="warning"
-        onClick={() =>
-          checkResponse({ type: 1, message: '测试notify' })
-        }
+        onClick={() => checkResponse({ type: 1, message: '测试notify' })}
       >
         测试notify
       </Button>
+
+      <Search
+        label="搜索"
+        placeholder="请输入搜索关键词"
+        onChange={(val) => {
+          console.log('onChange----', val);
+        }}
+        showAction
+        onSearch={(val) => {
+          console.log('onSearch', val);
+        }}
+      />
+      <Link to="/user">user page</Link>
     </Flex>
   );
 }
