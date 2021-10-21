@@ -29,12 +29,12 @@ export default function IndexPage() {
       </Button>
 
       <Search
+        style={{ width: '100%' }}
         label="搜索"
         placeholder="请输入搜索关键词"
         onChange={(val) => {
           console.log('onChange----', val);
         }}
-        showAction
         onSearch={(val) => {
           console.log('onSearch', val);
         }}
