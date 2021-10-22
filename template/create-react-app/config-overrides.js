@@ -21,8 +21,7 @@ module.exports = override(
         "@brand-color": "#ef5350", // 主题色
         // 默认是1px对应350px宽度的设计稿
         "@hd": '2px', // 750宽度设计稿
-      },
-      javascriptEnabled: true,
+      }
     }
   }),
   // 按需引入组件

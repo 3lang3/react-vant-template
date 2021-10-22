@@ -12,7 +12,7 @@ specifiers:
   prettier: ^2.2.0
   react: 17.x
   react-dom: 17.x
-  react-vant: latest
+  react-vant: ^1.2.6-beta.0
   typescript: ^4.1.2
   umi: ^3.5.14
   yorkie: ^2.0.0
@@ -21,7 +21,7 @@ dependencies:
   '@ant-design/pro-layout': 6.26.6_react-dom@17.0.2+react@17.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-vant: 1.2.3_react-dom@17.0.2+react@17.0.2
+  react-vant: 1.2.6-beta.0_react-dom@17.0.2+react@17.0.2
   umi: 3.5.20
 
 devDependencies:
@@ -1853,6 +1853,10 @@ packages:
   /async-validator/3.5.2:
     resolution: {integrity: sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==}
     dev: true
+
+  /async-validator/4.0.7:
+    resolution: {integrity: sha512-Pj2IR7u8hmUEDOwB++su6baaRi+QvsgajuFB9j95foM1N2gy5HM4z60hfusIO0fBPG5uLAEl6yCJr1jNSVugEQ==}
+    dev: false
 
   /asynckit/0.4.0:
     resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
@@ -6287,6 +6291,20 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
+  /rc-field-form/1.21.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-LR/bURt/Tf5g39mb0wtMtQuWn42d/7kEzpzlC5fNC7yaRVmLTtlPP4sBBlaViETM9uZQKLoaB0Pt9Mubhm9gow==}
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      react: '>= 16.9.0'
+      react-dom: '>= 16.9.0'
+    dependencies:
+      '@babel/runtime': 7.15.4
+      async-validator: 4.0.7
+      rc-util: 5.14.0_react-dom@17.0.2+react@17.0.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
   /rc-gesture/0.0.22:
     resolution: {integrity: sha512-6G6qrCE0MUTXyjh/powj91XkjRjoFL4HiJLPU5lALXHvGX+/efcUjGYUrHrrw0mwQdmrmg4POqnY/bibns+G3g==}
     dependencies:
@@ -6972,19 +6990,16 @@ packages:
       tween-functions: 1.2.0
     dev: true
 
-  /react-vant/1.2.3_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-EnYjQfmnlFQKQXGwPsQ7WdUTnR6mIdxggDsnsiC+dW2mugQL/7byhOG6uT35EELbmaDYJO6BTJoU6jSdSMwJRQ==}
+  /react-vant/1.2.6-beta.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-6hoYsauNhcdgYzV/nrG6wbps4HBnMiNgK8RanwkAZekirjyxxAJKEjy9pqEwa4txa/f5xIGt0uw1gGLmEKVufA==}
     peerDependencies:
-      rc-field-form: ^1.21.2
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
-    peerDependenciesMeta:
-      rc-field-form:
-        optional: true
     dependencies:
       '@vant/icons': 1.7.1
       '@vant/popperjs': 1.1.0
       classnames: 2.3.1
+      rc-field-form: 1.21.2_react-dom@17.0.2+react@17.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
