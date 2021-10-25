@@ -4,9 +4,6 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  optimizeDeps: {
-    exclude: ['rc-field-form']
-  },
   css: {
     preprocessorOptions: {
       less: {
@@ -29,7 +26,7 @@ export default defineConfig({
     libs: [
       {
         libraryName: "react-vant",
-        resolveStyle: (name) => `react-vant/es/${name}/style/index`,
+        resolveStyle: (name) => `react-vant/es/${name}/style`,
       },
     ],
   }),]

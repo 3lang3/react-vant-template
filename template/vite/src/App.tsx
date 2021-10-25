@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Cascader, Dialog, Swipe } from 'react-vant';
+import { Button, Dialog } from 'react-vant';
 
 import logo from './logo.svg'
 import './App.css'
@@ -13,13 +13,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <Button round type="primary" onClick={() => Dialog.alert({ title: '提示', message: `参照 Vant 打造的 React 框架移动端组件库。`})}>欢迎使用React Vant</Button>
-        <Swipe className="demo-swipe" autoplay={false}>
-          <Swipe.Item>1</Swipe.Item>
-          <Swipe.Item>2</Swipe.Item>
-          <Swipe.Item>3</Swipe.Item>
-          <Swipe.Item>4</Swipe.Item>
-        </Swipe>
-        <CascaderDemo />
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
@@ -177,12 +170,3 @@ const options = [
     ],
   },
 ];
-
-function CascaderDemo() {
-  return (
-    <Cascader
-      title="请选择所在地区"
-      options={options}
-    />
-  )
-}
