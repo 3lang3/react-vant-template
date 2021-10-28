@@ -17,7 +17,7 @@ specifiers:
   react-app-rewired: ^2.1.8
   react-dom: ^17.0.2
   react-scripts: 4.0.3
-  react-vant: ^1.2.6-beta.0
+  react-vant: ^1.2.8
   typescript: ^4.1.2
   web-vitals: ^1.0.1
 
@@ -32,7 +32,7 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-scripts: 4.0.3_react@17.0.2+typescript@4.4.4
-  react-vant: 1.2.6-beta.0_react-dom@17.0.2+react@17.0.2
+  react-vant: 1.2.8_react-dom@17.0.2+react@17.0.2
   typescript: 4.4.4
   web-vitals: 1.1.2
 
@@ -9700,8 +9700,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /react-vant/1.2.6-beta.0_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-6hoYsauNhcdgYzV/nrG6wbps4HBnMiNgK8RanwkAZekirjyxxAJKEjy9pqEwa4txa/f5xIGt0uw1gGLmEKVufA==}
+  /react-vant/1.2.8_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-57aUrykClkLHEQlRN3DiDdWLAW5cicReewy5CnlbhjHKNr7majH2mPTXpH+7JfYOrQfm5UUNpUvgT+AykO2Tyg==}
     peerDependencies:
       react: '>=16.14.0'
       react-dom: '>=16.14.0'

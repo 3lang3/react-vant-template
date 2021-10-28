@@ -1,6 +1,6 @@
 import { Link } from 'umi';
 import { checkResponse } from '@/utils';
-import { Search, Button, Dialog, Flex } from 'react-vant';
+import { Search, Button, Dialog, Flex, Popup } from 'react-vant';
 
 export default function IndexPage() {
   return (
@@ -27,7 +27,7 @@ export default function IndexPage() {
       >
         测试notify
       </Button>
-
+      <Popup visible position="bottom" round>
       <Search
         style={{ width: '100%' }}
         label="搜索"
@@ -39,6 +39,8 @@ export default function IndexPage() {
           console.log('onSearch', val);
         }}
       />
+      </Popup>
+
       <Link to="/user">user page</Link>
     </Flex>
   );
