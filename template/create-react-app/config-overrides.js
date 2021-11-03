@@ -1,4 +1,5 @@
-const { override, addLessLoader, fixBabelImports, addPostcssPlugins } = require('customize-cra')
+const { override, addLessLoader, fixBabelImports, addPostcssPlugins, addWebpackPlugin } = require('customize-cra')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 // const designWidth = webpack.resourcePath.includes(
 //   path.join("node_modules", "vant")
@@ -38,4 +39,7 @@ module.exports = override(
       viewportUnit: 'vw',
     })
   ]),
+  addWebpackPlugin(
+    new BundleAnalyzerPlugin()
+  )
 )

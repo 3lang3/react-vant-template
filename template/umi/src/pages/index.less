@@ -1,3 +1,28 @@
 .title {
   background: rgb(121, 242, 157);
 }
+
+@blue: #3f45ff;
+
+.rv-swiper {
+  &__slide {
+    .rv-swiper-item {
+      color: #fff;
+      font-size: 20px;
+      line-height: 150px;
+      text-align: center;
+    }
+
+    &:nth-child(odd) {
+      .rv-swiper-item {
+        background-color: @blue;
+      }
+    }
+
+    &:nth-child(even) {
+      .rv-swiper-item {
+        background-color: lighten(@blue, 8%);
+      }
+    }
+  }
+}

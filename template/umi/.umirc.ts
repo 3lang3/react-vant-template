@@ -25,8 +25,7 @@ export default defineConfig({
     }),
   ],
   routes: [
-    { path: '/', component: '@/pages/index' },
-    { path: '/user', component: '@/pages/user' },
+    { path: '/', component: '@/pages/index' }
   ],
   fastRefresh: {},
 });
