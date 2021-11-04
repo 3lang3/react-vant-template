@@ -36,10 +36,3 @@
 button {
   font-size: calc(10px + 2vmin);
 }
-
-.demo-swipe .rv-swipe-item {
-  width: 100%;
-  height: 230px;
-  line-height: 230px;
-  background-color: #66c6f2;
-}

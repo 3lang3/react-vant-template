@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Button, Dialog } from 'react-vant';
+import { Button } from 'react-vant';
+// import { Button } from 'antd-mobile';
 
 import logo from './logo.svg'
 import './App.css'
@@ -12,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
-        <Button round type="primary" onClick={() => Dialog.alert({ title: '提示', message: `参照 Vant 打造的 React 框架移动端组件库。`})}>欢迎使用React Vant</Button>
+        <Button>欢迎使用React Vant</Button>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
