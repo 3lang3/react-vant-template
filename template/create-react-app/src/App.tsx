@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <DropdownMenu ref={ref} value={value} onChange={(v) => setValue(v)}>
+        <DropdownMenu value={value} onChange={(v) => setValue(v)}>
           <DropdownMenu.Item name="value1" options={option1} />
           <DropdownMenu.Item name="value2" options={option2} />
         </DropdownMenu>

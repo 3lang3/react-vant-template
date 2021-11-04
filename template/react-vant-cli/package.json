@@ -17,7 +17,7 @@
     "test:coverage": "open tests/coverage/index.html"
   },
   "devDependencies": {
-    "@react-vant/cli": "^1.1.10",
+    "@react-vant/cli": "^1.1.14",
     "@types/classnames": "^2.2.11",
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
