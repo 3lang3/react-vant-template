@@ -1,6 +1,9 @@
-import { checkStatus } from '@/utils';
 import React from 'react';
+import { Button } from 'react-vant';
 
 export default ({ title }: { title: string }) => (
-  <h1 onClick={() => checkStatus(401)}>{title}</h1>
+  <>
+    <h1>{title}</h1>
+    <Button type="primary">欢迎使用React Vant</Button>
+  </>
 );

@@ -1,6 +1,5 @@
 import { Link } from 'umi';
-import { checkResponse } from '@/utils';
-import { Search, Button, Dialog, Flex, Popup } from 'react-vant';
+import { Flex, Button } from 'react-vant';
 
 export default function IndexPage() {
   return (
@@ -9,37 +8,9 @@ export default function IndexPage() {
       <Button
         round
         type="primary"
-        onClick={() =>
-          Dialog.alert({
-            title: '提示',
-            message: `参照 Vant 打造的 React 框架移动端组件库。`,
-          })
-        }
       >
         欢迎使用React Vant
       </Button>
-      <Button
-        round
-        block
-        style={{ marginTop: 20 }}
-        type="warning"
-        onClick={() => checkResponse({ type: 1, message: '测试notify' })}
-      >
-        测试notify
-      </Button>
-      <Popup visible position="bottom" round>
-      <Search
-        style={{ width: '100%' }}
-        label="搜索"
-        placeholder="请输入搜索关键词"
-        onChange={(val) => {
-          console.log('onChange----', val);
-        }}
-        onSearch={(val) => {
-          console.log('onSearch', val);
-        }}
-      />
-      </Popup>
 
       <Link to="/user">user page</Link>
     </Flex>
