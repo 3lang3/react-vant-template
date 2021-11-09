@@ -1,6 +1,21 @@
 import { defineConfig } from 'vite'
 import styleImport from "vite-plugin-style-import";
 import reactRefresh from '@vitejs/plugin-react-refresh';
+import visualizer from "rollup-plugin-visualizer";
+ 
+const plugins = [];
+ 
+// 打包生产环境才引入的插件
+if (process.env.NODE_ENV === "production") {
+    // 打包依赖展示
+    plugins.push(
+        visualizer({
+            open: true,
+            gzipSize: true,
+            brotliSize: true,
+        })
+    );
+}
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -29,5 +44,5 @@ export default defineConfig({
         resolveStyle: (name) => `react-vant/es/${name}/style`,
       },
     ],
-  })]
+  }), ...plugins]
 })
