@@ -1,9 +1,11 @@
-import { Button } from 'react-vant';
+import { Button, hooks } from 'react-vant';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const { current } = hooks.useCountDown({ time: 24 * 60 * 60 })
 
+  console.log(current)
   return (
     <div className="App">
       <header className="App-header">

@@ -12,6 +12,12 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
  * !!!!! 确保less-loader版本 < 8 !!!!!
  */
 
+const plugins = []
+
+if (process.env.NODE_ENV === 'production') {
+  plugins.push(addWebpackPlugin(new BundleAnalyzerPlugin()))
+}
+
 module.exports = override(
   addLessLoader({
     // 定制主题
@@ -39,7 +45,5 @@ module.exports = override(
       viewportUnit: 'vw',
     })
   ]),
-  addWebpackPlugin(
-    new BundleAnalyzerPlugin()
-  )
+  ...plugins
 )
