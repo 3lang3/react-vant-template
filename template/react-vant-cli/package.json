@@ -17,12 +17,12 @@
     "test:coverage": "open tests/coverage/index.html"
   },
   "devDependencies": {
-    "@react-vant/cli": "^1.1.14",
-    "@types/classnames": "^2.2.11",
-    "@types/react": "^16.9.55",
-    "@types/react-dom": "^16.9.9",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@react-vant/cli": "1.1.19",
+    "@types/classnames": "2.3.0",
+    "@types/react": "16.14.21",
+    "@types/react-dom": "16.9.14",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "peerDependencies": {
     "react": ">=16.14.0",
