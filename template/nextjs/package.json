@@ -24,6 +24,6 @@
     "next-images": "1.8.2",
     "next-plugin-antd-less": "1.5.2",
     "next-transpile-modules": "8.0.0",
-    "typescript": "4.4.2"
+    "typescript": "4.5.2"
   }
 }
