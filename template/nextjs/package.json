@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/react": "17.0.20",
     "babel-plugin-import": "1.13.3",
-    "eslint": "7.32.0",
+    "eslint": "8.3.0",
     "eslint-config-next": "11.1.2",
     "next-compose-plugins": "2.2.1",
     "next-images": "1.8.2",
