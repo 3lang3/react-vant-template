@@ -21,6 +21,6 @@
     "rollup-plugin-visualizer": "5.5.2",
     "typescript": "4.5.2",
     "vite": "2.6.14",
-    "vite-plugin-style-import": "1.3.0"
+    "vite-plugin-style-import": "1.4.0"
   }
 }
