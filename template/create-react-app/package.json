@@ -45,7 +45,7 @@
     "babel-plugin-import": "1.13.3",
     "customize-cra": "1.0.0",
     "less": "4.1.2",
-    "less-loader": "7.3.0",
+    "less-loader": "10.2.0",
     "postcss-px-to-viewport": "1.1.1",
     "react-app-rewired": "2.1.8",
     "webpack-bundle-analyzer": "4.5.0"
