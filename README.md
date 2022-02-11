@@ -15,6 +15,8 @@
 
 #### vite集成
 
+> 请使用 `npm` 或者 `yarn` 安装依赖, `pnpm` 会出现问题。 
+
 参考[react-vant-vite](https://github.com/3lang3/react-vant-template/tree/main/template/vite)
 
 请参阅[Quickstart](https://3lang3.github.io/react-vant/#/zh-CN/)中的更多内容。
