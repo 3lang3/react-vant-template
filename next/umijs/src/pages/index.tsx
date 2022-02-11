@@ -10,7 +10,9 @@ export default function IndexPage() {
       <Typography.Title level={1}>
         Hello React Vant <Tag type="primary">next</Tag>
       </Typography.Title>
-      <Typography.Text>这是umijs的模版内容</Typography.Text>
+      <Typography.Text>
+        参照 Vant 打造的 React 框架移动端组件库。
+      </Typography.Text>
       <Card round>
         <Card.Cover onClick={() => Toast.info('点击了Cover区域')}>
           <Image src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/baa20698931623.5ee79b6a8ec2b.jpg" />
