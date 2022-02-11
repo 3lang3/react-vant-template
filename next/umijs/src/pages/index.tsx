@@ -5,7 +5,7 @@ export default function IndexPage() {
   return (
     <Space
       direction="vertical"
-      style={{ padding: 20, backgroundColor: '#f2f2f2' }}
+      style={{ padding: 20, width: '100%', backgroundColor: '#f2f2f2', boxSizing: 'border-box' }}
     >
       <Typography.Title level={1}>
         Hello React Vant <Tag type="primary">next</Tag>
