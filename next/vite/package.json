@@ -11,7 +11,7 @@
     "@react-vant/icons": "^0.0.6",
     "react": "latest",
     "react-dom": "latest",
-    "react-vant": "^latest"
+    "react-vant": "next"
   },
   "devDependencies": {
     "@types/react": "latest",
