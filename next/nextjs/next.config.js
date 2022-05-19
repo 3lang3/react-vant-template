@@ -8,6 +8,9 @@ const withTM = require('next-transpile-modules')([
 
 const nextConfig = withTM(withImages({
   // 你项目中其他的 Next.js 配置
+  typescript: {
+    ignoreBuildErrors: true
+  }
 }))
 
 module.exports = nextConfig

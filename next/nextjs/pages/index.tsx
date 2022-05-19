@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         参照 Vant 打造的 React 框架移动端组件库。
       </Typography.Text>
       <Card round>
-        <Card.Cover onClick={() => Toast.info('点击了Cover区域')}>
+        <Card.Cover onClick={() => Toast.info({ message: '点击了Cover区域13', duration: 300000 })}>
           <Image alt="" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/baa20698931623.5ee79b6a8ec2b.jpg" />
         </Card.Cover>
         <Card.Header
