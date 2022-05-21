@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Add React in One Minute</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-vant@2.0.0-alpha.40/bundle/index.css">
+</head>
+
+<body style="margin: 16px">
+
+  <h2>Add React in One Minute</h2>
+  <p>This page demonstrates using React with no build tooling.</p>
+  <p>React is loaded as a script tag.</p>
+
+  <div id="app"></div>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-vant@2.0.0-alpha.40/bundle/react-vant.min.js"></script>
+
+  <script type="text/babel">
+    const { Button, Toast } = window['react-vant']
+    function MyApp() {
+      return <Button type="primary" onClick={() => Toast.info('react vant toast')}>Hello, world!</Button>;
+    }
+
+    const container = document.querySelector('#app');
+    const root = ReactDOM.createRoot(container);
+    root.render(<MyApp />);
+  </script>
+</body>
+
+</html>
