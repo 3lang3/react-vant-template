@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-vant/icons": "^0.0.6",
+    "@vant/area-data": "^1.3.0",
     "react": "latest",
     "react-dom": "latest",
     "react-vant": "next"
