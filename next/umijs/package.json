@@ -22,15 +22,16 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@react-vant/icons": "^0.0.6",
+    "antd-mobile": "^5.13.1",
     "react": "17.x",
     "react-dom": "17.x",
-    "react-vant": "^2.0.0-alpha.45",
+    "react-vant": "^2.0.0-alpha.46",
     "umi": "^3.5.20"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@umijs/preset-react": "1.x",
+    "@umijs/preset-react": "~2.1.4",
     "@umijs/test": "^3.5.20",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.0",
