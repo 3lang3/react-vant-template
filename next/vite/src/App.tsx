@@ -13,7 +13,7 @@ export default function App() {
       }}
     >
       <Typography.Title level={1}>
-        Hello React Vant <Tag type="primary">next</Tag>
+        Hello React Vant <Tag type="primary">v3</Tag>
       </Typography.Title>
       <Typography.Text>
         参照 Vant 打造的 React 框架移动端组件库。
