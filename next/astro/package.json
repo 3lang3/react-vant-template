@@ -1,0 +1,23 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^1.2.2",
+    "@react-vant/icons": "^0.0.10",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^1.9.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-vant": "^3.1.2"
+  }
+}
