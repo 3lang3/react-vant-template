@@ -1,5 +1,5 @@
 import { Arrow, Like } from "@react-vant/icons";
-import { Card, Image, Button, Toast, Space, Typography, Tag } from "react-vant";
+import { Space, Typography, Tag, Card, Toast, Image, Button } from "react-vant";
 
 export default function ReactVantDemo() {
   return (
