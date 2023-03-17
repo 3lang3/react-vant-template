@@ -9,5 +9,5 @@ export default defineConfig({
   ],
   fastRefresh: {},
   mfsu: {},
-  // webpack5: {},
+  webpack5: {},
 });

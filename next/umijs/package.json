@@ -24,7 +24,7 @@
     "@react-vant/icons": "^0.0.6",
     "react": "17.x",
     "react-dom": "17.x",
-    "react-vant": "^3.0.0",
+    "react-vant": "^3.2.4",
     "umi": "^3.5.20"
   },
   "devDependencies": {
